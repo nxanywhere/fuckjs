@@ -1,0 +1,17 @@
+.teenkuy {
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 16px; */
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 14px;
+    margin: auto;
+    background-color: rgba(15, 15, 15, 0.699);
+    /* text-transform: uppercase;
+      font-weight: bold; */
+  
+    /* position: fixed; */
+}

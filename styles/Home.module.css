@@ -108,9 +108,29 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+
+
+.overlay {
+  /* background-image: url("../public/0.png") !important; */
+  background-color: black;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.overlay2 {
+  /* background-image: url("../public/0.png") !important; */
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container2 {
+  padding-left: 28px;
+  padding-right: 28px;
 }

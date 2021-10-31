@@ -1,0 +1,38 @@
+.nav001 {
+  z-index: 999;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 16px; */
+  padding-left: 220px;
+  padding-right: 220px;
+  font-size: 14px;
+  margin: auto;
+  background-color: rgba(15, 15, 15, 0.699);
+  backdrop-filter: saturate(180%) blur(6px);
+  /* text-transform: uppercase;
+    font-weight: bold; */
+
+  position: fixed;
+}
+
+.navbg {
+  background-color: rgba(15, 15, 15, 0.699);
+  backdrop-filter: blur(50px);
+}
+
+.nav001 > div > a {
+  opacity: 0.6;
+  color: white;
+  text-decoration: none;
+  transition-duration: 250ms;
+}
+
+.nav001 > div > a:hover {
+  font-weight: bold;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  transition-duration: 250ms;
+}
+
